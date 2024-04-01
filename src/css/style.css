@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#header{
+
+    background-image: url(/src/images/fs-7-1920x950.jpg);
+    background-size: cover;
+    height: 100vh;
+
+    .header_title{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+
+    .logo{
+        padding-top: 30px;
+        width: 187px;
+        align-items: center;
+        display: flex;
+    }
+
+    .headder_link{
+        width: 700px;
+
+        .header_icon{
+            height: 50px;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            i{
+                padding-bottom: 3px;
+                margin-right: 15px;
+                color: #fff;
+                cursor:pointer;
+                transition: all 0.9s;
+}
+            i:hover{
+                color: #ffc311;
+            }
+        }
+
+        .header_button{
+            color: #fff;
+            background-color: #ffc311;
+            border-radius: 7px;
+
+            
+           a{
+            border-right: 1px solid rgba(0, 0, 0, 0.08);
+            border-left: 0;
+            color: #FFFFFF;
+            padding: 0.3846rem 0.7692rem;
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 0.7692rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.5s;
+}
+
+}
+
+    .header_ul{
+        margin-top: 20px;
+        ul{
+            display: flex;
+        justify-content: space-around;
+
+        li{
+            display: flex;
+            a{
+                color: #fff;
+                font-weight: 600;
+                transition: all 0.5s;
+
+
+
+                i{
+                    font-size: 12px;
+                    margin-left: 3px;
+                    transition: all 0.9s;
+                }
+            }
+
+            a:hover{
+
+                color: #ffc311;
+
+                i{
+                    transform:rotate(90deg);
+                }
+                
+
+            }
+        }
+        }
+
+        
+        
+    }
+    }
+    }
+
+    .header_main{
+        text-align: center;
+        width: 60%;
+        margin: 0  auto;
+        margin-top: 50px;
+        
+
+        .header_main_link{
+            display: flex;
+            justify-content: center;
+            gap: 2px;
+
+            a{
+                color: #fff;
+                font-weight: 600;
+                transition: all 0.9s;
+}
+            a:hover{
+                color: #ffc311;
+            }
+
+            i{
+                color: #ffc311;
+                margin-left: 25px;
+                margin-right: 5px;
+            }
+            span{
+                color: #fff;
+                font-weight: 600;
+            }
+
+        }
+
+        .header_main_title{
+
+            margin-top: 30px;
+            h4{
+                color: #fff;
+                font-size: 70px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: #fff;
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+
+        .header_main_button{
+            margin-top: 70px;
+            
+            a{
+               color: #fff;
+               margin-left: 40px;
+               font-size: 16px;
+               font-weight: 600;
+               text-transform: uppercase;
+               border-bottom: 2px solid #FFFFFF;
+               display: inline-block;
+               padding: 15px 10px;
+               cursor: pointer;
+               transition: all 0.9s;
+}
+
+            a:hover{
+
+                color: #ffc311;
+                border-bottom: 2px solid #ffc311;
+
+
+            }
+
+        }
+
+        .header_main_slide_button{
+
+            ul{
+                height: 140px;
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                align-items: end;
+
+                button{
+                    background: transparent;
+                    font-size: 0;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    padding: 0;
+                    border: 1px solid #FFFFFF;
+                    cursor:pointer;
+                    transition: all 0.9s;
+                }
+
+                button:hover{
+                    border: 1px solid #ffc311;
+                    background-color: #ffc311;
+                }
+
+            .active{
+                background-color: #fff;
+            }
+
+            }
+
+            
+
+        }
+    }
+}
+
+
+      
